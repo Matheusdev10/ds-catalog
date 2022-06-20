@@ -1,0 +1,150 @@
+:root{
+    --primary-color:  hsla(221, 100%, 63%);
+    --color-h1-home:  hsla(200, 19%, 18%);
+    --color-p-home: hsla(0, 0%, 62%, 1);
+    --box-color: hsla(0, 0%, 95%);
+    --border-box: 1px solid hsla(0, 0%, 88%, 1);
+    --box-p-color: hsla(0, 0%, 62%);
+  }
+  
+  
+  body{
+    font-family: open sans;
+ 
+  }
+  
+  .background{
+    background-color: var(--box-color);
+    width: 25.875rem;
+    height: 70rem;
+    margin-inline: auto;
+  }
+  
+  
+  
+  
+  nav {
+    background: var(--primary-color);
+    width: 25.875rem;
+    height: 3.125rem;
+    gap: 15rem;
+    margin-inline: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  nav #img-menu{
+    width: 1.0625rem;
+    height: 1.0625rem;
+    
+  }
+   nav .logo{
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+.box{
+    width: 23.375rem; 
+    height: 4.3125rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;   
+}
+
+.box p{
+    font-size: 1rem;
+    color: var(--box-p-color);
+    display: flex;
+    margin-left: 20px;
+    width: 19.59625rem;
+    height: 1.75rem;
+    margin-top: 1.5625rem;
+    
+}
+
+.box .linha hr{
+ width: 21.085rem;
+ margin-bottom: 1.25rem;
+ border: var(--border-box);   
+ 
+}
+
+.card-produto{
+    width: 23.25rem;
+    height: 17.625rem;
+    margin-top: 1.4375rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    border: 1px solid #E1E1E1;
+    
+
+}
+
+.images{
+    width: 23.30125rem;
+    height: 10.7325rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    border: 1px solid #E1E1E1;
+    
+}
+
+.card-produto hr{
+    margin-top: 0.9825rem;
+
+}
+
+
+.descricao-pc{
+margin-top: 1.205rem;
+position: relative;
+right: 1.25rem;
+
+}
+
+
+
+
+
+.money{
+    margin-top: 1rem; 
+    position: relative;
+    right: 4.75rem;
+    
+}
+
+.img-pc{
+  position: relative;
+  bottom: 1.25rem;
+  right: 0.3125rem;
+  
+}
+
+
+
+  
+  .container{
+      width: 23.375rem;
+      height: 40.375rem;
+      margin-inline: auto;
+      margin-top: 1.25rem;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: var(--box-shadow);
+      background-color: #ffffff;   
+  }
+  
+  
+  .cifrao{
+    position: relative;
+    right: 4.375rem;
+    bottom: 0.1875rem;
+  
+    
+  }
